@@ -2,7 +2,7 @@
 
 ## Repository Information
 
-- **Repository URL:** https://github.com/USERNAME/wua-food-delivery
+- **Repository URL:** (https://github.com/mcgthankie6/wua-food-delivery)
 - **Project:** WUA Cafeteria Express
 - **Final Version:** v1.0-submission
 - **Methodology:** Agile
