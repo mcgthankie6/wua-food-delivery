@@ -19,3 +19,14 @@ def get_menu(cafeteria_name):
         "cafeteria": cafeteria_name,
         "items": FOOD_ITEMS.copy(),
     }
+
+def search_menu(menu, search_term):
+    """Return food items whose names contain the search term."""
+    if not search_term or not search_term.strip():
+        return {}
+
+    return {
+        item: price
+        for item, price in menu.items()
+        if search_term.strip().lower() in item.lower()
+    }
