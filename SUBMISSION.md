@@ -19,12 +19,11 @@
 
 ## Merged Pull Requests
 
-1. User Authentication: [Merged PR URL]
-2. Menu Browsing: [Merged PR URL]
-3. Order Tracking: [Merged PR URL]
-4. [Additional feature]: [Merged PR URL]
-5. [Additional feature]: [Merged PR URL]
-
+1. **User Authentication:** https://github.com/mcgthankie6/wua-food-delivery/pull/1
+2. **User Authentication:** https://github.com/mcgthankie6/wua-food-delivery/pull/2
+3. **Menu Browsing:** https://github.com/mcgthankie6/wua-food-delivery/pull/3
+4. **Order Tracking:** https://github.com/mcgthankie6/wua-food-delivery/pull/4
+5. **Menu Search:** https://github.com/mcgthankie6/wua-food-delivery/pull/5
 ## Contribution Graph
 
 ![GitHub Contribution Graph](docs/contribution-graph.png)
