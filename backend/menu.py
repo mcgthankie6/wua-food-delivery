@@ -9,7 +9,6 @@ FOOD_ITEMS = {
     "Chicken Sandwich": 3.50,
 }
 
-
 def get_menu(cafeteria_name):
     """Return the food menu for the specified cafeteria."""
     if not cafeteria_name or not cafeteria_name.strip():
@@ -18,4 +17,15 @@ def get_menu(cafeteria_name):
     return {
         "cafeteria": cafeteria_name,
         "items": FOOD_ITEMS.copy(),
+    }
+
+def search_menu(menu, search_term):
+    """Return food items whose names contain the search term."""
+    if not search_term or not search_term.strip():
+        return {}
+
+    return {
+        item: price
+        for item, price in menu.items()
+        if search_term.strip().lower() in item.lower()
     }
