@@ -9,7 +9,6 @@ FOOD_ITEMS = {
     "Chicken Sandwich": 3.50,
 }
 
-
 def get_menu(cafeteria_name):
     """Return the food menu for the specified cafeteria."""
     if not cafeteria_name or not cafeteria_name.strip():
